@@ -1,0 +1,370 @@
+/* Extra small devices */
+@media (max-width: 576px) {
+    /* Start header */
+    /* Top Bar */
+    .time-table {
+        width: 100%;
+        margin: 0 1% 0 1%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .time-table h6 {
+        margin: auto;
+    }
+    .reg-log {
+        display: none;
+    }
+    /* Start navigation bar*/
+    .nav-sec {
+        width: 100%;
+        height: 55px;
+    }
+    .nav-logo {
+        display: none;
+    }
+    .nav-link {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin: 0 1% 0 1%;
+    }
+    .nav-link .item {
+        font-size: 10px;
+        padding: 10px 10px;
+    }
+    .nav-link a:hover {
+        font-size: 11.5px;
+    }
+    /* Bottom part from the header  */
+    .edu-para h1{
+        font-size: 25px;
+    }
+    .fhead::first-letter {
+        font-size: 25px;
+    }
+    .edu-para p {
+        font-size: 12px;
+    }
+    .course-btn {
+        width: 100px;
+        height: 30px;
+    }
+    /* End header */
+    /* Start about us section */
+    .about-us {
+        height: 530px;
+    }
+    .khan-name h1 {
+        font-size: 25px;
+    }
+    .khan-name p {
+        font-size: 13px;
+        align-content: center;
+    }
+    .khan-disc {
+        flex-flow: column wrap;
+    }
+    .khan-proj {
+        width: 100%;
+        font-size: 13px;
+       margin: 0 2% 0 2%;
+    }
+    .khan-pic {
+        display: none;
+    } 
+    .proj-head {
+        font-size: 19px;
+    }
+    /* Start courses section */
+    .cor-sec {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .cor {
+        height: 8%;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%;
+    }
+    .cor-box {
+        height: 92%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 5%;
+    }
+    .coll-cor {
+        width: 55%;
+        margin-top: 4%;
+    } 
+    /* Start signing up section  */
+    .sign-para {
+        display: none;
+    }
+    .sign-form {
+        width: 100%;
+    }
+    /* Start location section */
+    .location-sec iframe {
+        width: 95%;
+    }
+    /* Start Statistic Section */
+    .stat-part h1 {
+        font-size: 30px;
+    }
+    .stat-part p {
+        font-size: 10px;
+    }
+    .stat-head {
+        height: 70px;
+    }
+    .stat-head .hor-line {
+        width: 15%;
+    }
+    .stat-sec .all-stat {
+        height: 180px;
+    }
+    /* Start testamonile and gallery section */
+    .test-sec {
+        height: auto;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .coll-gall {
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+
+    }
+    .coll-gall img {
+        margin: 13px;
+        width: 200px;
+        height: 150px;
+    }
+    /* Start apply section */
+    .apply-sec {
+        height: auto;
+        display: flex;
+        flex-flow: column wrap;
+    }
+    .apply-para {
+        height: 50px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .apply-para p {
+        font-size: 13px;
+    }
+    .apply-btn {
+        height: 50px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .apply-btn button {
+        width: 25%;
+        padding: 8px;
+    }
+    /* Start footer */
+    .right-side {
+        display: none;
+    }
+    .left-side {
+        width: 100%;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-right: 10px;
+    }
+}
+/* small devices */
+@media (min-width: 576px) and (max-width:776,98) {
+    /* Start header */
+    /* Top Bar */
+    .time-table {
+        width: 100%;
+        margin: 0 1% 0 1%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .time-table h6 {
+        margin: auto;
+    }
+    .reg-log {
+        display: none;
+    }
+    /* Start navigation bar*/
+    .nav-sec {
+        width: 100%;
+        height: 55px;
+    }
+    .nav-logo {
+        display: none;
+    }
+    .nav-link {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin: 0 1% 0 1%;
+    }
+    .nav-link .item {
+        font-size: 10px;
+        padding: 10px 10px;
+    }
+    .nav-link a:hover {
+        font-size: 11.5px;
+    }
+    /* Bottom part from the header  */
+    .edu-para h1{
+        font-size: 25px;
+    }
+    .fhead::first-letter {
+        font-size: 25px;
+    }
+    .edu-para p {
+        font-size: 12px;
+    }
+    .course-btn {
+        width: 100px;
+        height: 30px;
+    }
+    /* End header */
+    /* Start about us section */
+    .about-us {
+        height: 530px;
+    }
+    .khan-name h1 {
+        font-size: 25px;
+    }
+    .khan-name p {
+        font-size: 13px;
+        align-content: center;
+    }
+    .khan-disc {
+        flex-flow: column wrap;
+    }
+    .khan-proj {
+        width: 100%;
+        font-size: 13px;
+       margin: 0 2% 0 2%;
+    }
+    .khan-pic {
+        display: none;
+    } 
+    .proj-head {
+        font-size: 19px;
+    }
+    /* Start courses section */
+    .cor-sec {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .cor {
+        height: 8%;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%;
+    }
+    .cor-box {
+        height: 92%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 5%;
+    }
+    .coll-cor {
+        width: 55%;
+        margin-top: 4%;
+    } 
+    /* Start signing up section  */
+    .sign-para {
+        display: none;
+    }
+    .sign-form {
+        width: 100%;
+    }
+    /* Start location section */
+    .location-sec iframe {
+        width: 95%;
+    }
+    /* Start Statistic Section */
+    .stat-part h1 {
+        font-size: 30px;
+    }
+    .stat-part p {
+        font-size: 10px;
+    }
+    .stat-head {
+        height: 70px;
+    }
+    .stat-head .hor-line {
+        width: 15%;
+    }
+    .stat-sec .all-stat {
+        height: 180px;
+    }
+    /* Start testamonile and gallery section */
+    .test-sec {
+        height: auto;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .coll-gall {
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+
+    }
+    .coll-gall img {
+        margin: 13px;
+        width: 200px;
+        height: 150px;
+    }
+    /* Start apply section */
+    .apply-sec {
+        height: auto;
+        display: flex;
+        flex-flow: column wrap;
+    }
+    .apply-para {
+        height: 50px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .apply-para p {
+        font-size: 13px;
+    }
+    .apply-btn {
+        height: 50px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .apply-btn button {
+        width: 25%;
+        padding: 8px;
+    }
+    /* Start footer */
+    .right-side {
+        display: none;
+    }
+    .left-side {
+        width: 100%;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-right: 10px;
+    }
+}

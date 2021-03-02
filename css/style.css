@@ -1,0 +1,909 @@
+/* Universel Selector 'all' */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Links */
+a {
+    text-decoration: none;
+    color: black;
+}
+/* Input Form */
+input {
+    outline: none;
+}
+/* Lists */
+ol, ul {
+    list-style-type: none;
+}
+/* Font */
+@font-face {
+    font-family: 'Dosis';
+    src: url('../fonts/Dosis-VariableFont_wght.ttf');
+}
+/* Start body */
+body {
+    width: 100%;
+    height: 100%;
+}
+/* start Header */
+#header {
+    min-width: 100%;
+    height: 600px;
+}
+/* The top bar */
+.bar-sec {
+    height: 30px;
+    background-color: #0c0038;
+    display: flex;
+    flex-direction: row;
+}
+/* Time and telepone information */
+.time-table {
+    width: 67%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.time-table h6 {
+    font-size: 12px;
+    color: #fff;
+    margin: 0px 20px 0px 50px;
+}
+.time-table p,  
+.time-table a {
+    font-family: 'Dosis';
+    font-size: 12px;
+    color: #fff;
+    word-spacing: 6px;
+}
+.time-para {
+    text-transform: capitalize;
+}
+/* Register and log in options */
+.reg-log {
+    width: 33%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    color: #fff;
+    margin-right: 10px;
+}
+.reg-log a {
+    font-family: 'Dosis';
+    font-size: 12px;
+    color: #fff;
+    text-transform: capitalize;
+    margin: 0px 10px 0px 15px;
+}
+/* Navigation Section */
+.nav-sec {
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+}
+.nav-logo {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.nav-img {
+    width: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav-img img {
+    width: 50px;
+    height: 42px;
+}
+.coll-name {
+    width: 75px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+.coll-name h1 {
+    font-family: 'Dosis';
+    font-size: 17px;
+    color: #00ADEE;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.coll-head::first-letter {
+    font-size: 36px;
+    text-align: center;
+    color: rgb(1, 26, 36);
+    padding-right: 2px;
+}
+.coll-name p {
+    font-family: 'Dosis';
+    font-size: 14px;
+    color: rgb(0, 60, 83);
+    font-weight: bolder;
+    text-transform: uppercase;
+    align-self: flex-end;
+}
+/* Nav Links */
+.nav-link {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-link .item {
+    font-family: 'Dosis';
+    font-size: 13px;
+    font-weight: bolder;
+    color: rgb(1, 26, 36);
+    text-transform: uppercase;
+    padding: 20px 30px;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+/* Links state */
+/* unvisited link */
+.nav-link a:link {
+    color:rgb(0, 0, 0);
+}
+/* visited link */
+.nav-link a:visited {}
+
+/* mouse over link */
+.nav-link a:hover {
+    border-bottom: solid 2px#00ADEE;
+    background-color: rgb(230, 234, 235);
+    font-size: 13.5px;
+}
+/* selected link */
+.nav-link a:active {
+    border-bottom: solid 2px #00ADEE;
+}
+/* End Nav Bar */
+/* The bottom part from the header */
+.edu-sec {
+    height: 500px;
+    background: #000 url(../img/slider1.jpg) center no-repeat fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.edu-para {
+    width: 400px;
+    min-height: 300px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+.edu-para h1 {
+    font-family: 'Dosis';
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: lighter;
+    color: #fff;
+    letter-spacing: 3px;
+    line-height: 1.5;
+}
+.fhead::first-letter {
+    font-size: 35px;
+    color: #00ADEE;
+}
+.edu-para span {
+    background-color: rgba(1, 156, 218, 0.6);
+}
+/* Description Paragrph */
+.des-para {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+.edu-para p {
+    margin-top: 15px;
+    color: rgb(190, 190, 190);
+    text-align: center;
+}
+/* course button */
+.course-btn {
+    width: 140px;
+    height: 35px;
+    background-color: rgba(1, 156, 218, 0.5);
+    color: #fff;
+    border: 1px solid rgb(180, 180, 180);
+    padding: 7px;
+    cursor: pointer;
+    font-family: 'Dosis';
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-top: 50px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    transition:  background-color 1s linear 0s;
+    -webkit-transition:  background-color 1s linear 0s;
+    -moz-transition:  background-color 1s linear 0s;
+    -ms-transition:  background-color 1s linear 0s;
+    -o-transition:  background-color 1s linear 0s;
+}
+.course-btn:hover {
+    background-color: rgb(1, 156, 218);
+    box-shadow: 0px 2px  5px 1px rgb(112, 111, 111);
+}
+/* About us section */
+.about-us {
+    height: 650px;
+    background: rgb(250, 244, 244) url(../img/mu.png) center top no-repeat;
+    display: flex;
+    flex-flow: column nowrap;
+}
+.khan-name {
+    height: 200px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+/* College Name */
+.khan-name h1 {
+    font-family: 'Dosis';
+    font-weight: 600;
+    font-size: 33px;
+    text-transform: capitalize;
+    margin-top: 60px;
+    line-height: 2;
+    color: #002147;
+}
+.khan-name p {
+    font-family: 'Dosis';
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #94cac5;
+    word-spacing: 8px;
+}
+/* Description */
+.khan-disc {
+    height: 450px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+.khan-proj {
+    width: 60%;
+    display: flex;
+    flex-flow: column wrap;
+    margin: 3% 0 0 5%;
+}
+.khan-proj .small-para {
+    font-family: 'Font Awesome 5 Free';
+    margin-left: 4%;
+    font-size: 12px;
+    font-weight: bold;
+    color:  rgb(1, 156, 218);
+}
+.proj-head {
+    font-family: 'Dosis';
+    font-weight: bolder;
+    font-size: 24px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    line-height: 1.5;
+    color: #002147;
+}
+.hor-line {
+    border: 1px solid rgb(1, 156, 218);
+    width: 12%;
+    margin: 7px 0 6px 0;
+}
+.khan-proj p {
+    font-family: 'Dosis';
+    color: #666666;
+    line-height: 1.5;
+}
+.khan-proj .khan-goal {
+    margin-top: 2%;
+}
+/* Kytc picture */
+.khan-pic {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.khan-pic img {
+    width: 300px;
+    height: 300px;
+    border: 1px solid rgba(2, 45, 124, .7);
+    box-shadow: 2px 2px 5px 0px rgb(158, 155, 155),
+    -2px -2px 5px 0px rgb(158, 155, 155);
+}
+/* Courses Section */
+.cor-sec {
+    height: 500px;
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: rgb(255, 255, 255) ;
+}
+.cor {
+    width: 100%;
+    height: 85px;
+    margin-left: 5%;
+}
+.cor .small-para {
+    margin-left: 7%;
+}
+/* Boxes */
+.cor-box {
+    height: 375px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.coll-cor {
+    width: 21.333%;
+    height: 265px;
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    margin-right: 4%;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    transition:  transform 1s linear 0s;
+    -webkit-transition:  transform 1s linear 0s;
+    -moz-transition:  transform 1s linear 0s;
+    -ms-transition:  transform 1s linear 0s;
+    -o-transition:  transform 1s linear 0s;
+}
+.coll-cor:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 5px 1px rgb(158, 155, 155);
+    border: 1px rgb(132, 132, 255) solid;
+    transform: scale(.9,.9);
+    -webkit-transform: scale(.9,.9);
+    -moz-transform: scale(.9,.9);
+    -ms-transform: scale(.9,.9);
+    -o-transform: scale(.9,.9);
+}
+.top-part {
+    height: 70px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+}
+.grad-cap {
+    width: 40px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grad-cap span {
+    font-size: 30px;
+    color: rgb(1, 156, 218);
+}
+.cor-head {
+    font-family: 'Dosis';
+    font-weight: bolder;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #002147;
+    margin-left: 12px;
+}
+.cor-head span {
+    background-color: rgba(1, 156, 218, 0.2);
+}
+.ul-list {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 13%;
+}
+.chek-box {
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.list-item {
+    font-family: 'Dosis';
+    font-size: 13px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    color: rgb(1, 37, 51);
+}
+.chek-box span {
+    color: blue;
+    margin-right: 20px;
+}
+/* Signing up section */
+.sign-sec {
+    height: 450px;
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: rgb(255, 255, 255) ;
+}
+.sign-para {
+    width: 60%;
+    height: 100%;
+    background: #000 url(../img/Posh-Pools-and-Easy-A’s-Students-as-Customers-in-Higher-Education-Mark-Marone-Featured-Image-1.jpg) 
+    center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+.get-part {
+    min-width: 300px;
+    min-height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-right: 5%;
+}
+.get-part p, 
+.get-part h1 {
+    font-family: 'Dosis';
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700;
+    color: #0c0038;
+}
+.get-part .kytc {
+    font-family: 'Dosis';
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.get-part h1 {
+    color: rgb(2, 183, 255);
+    margin-top: 10%;
+    background-color: rgba(255, 255, 255, 0.4);
+    font-weight: lighter;
+    letter-spacing: 8px;
+}
+.get-part h1::first-letter {
+    font-size: 35px;
+    color: rgb(2, 2, 170);
+    font-weight: 900;
+}
+/* Sign Form */
+.sign-form {
+    width: 40%;
+    display: flex;
+    flex-flow: column wrap;
+    background-color: rgba(0, 0, 56, 0.9);
+}
+.form-head {
+    height: 80px;
+    margin: 5% 0 3% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.form-head .small-para {
+    margin-left: 13%;
+    font-size: 12px;
+    font-weight: bold;
+    color:  rgb(255, 255, 255);
+    text-transform: capitalize;
+}
+.form-head .proj-head {
+    color: rgb(255, 255, 255);
+    letter-spacing: 3px;
+    line-height: 1.5;
+}
+.form-line {
+    color: #fff;
+    width: 15%;
+    margin-top: 1%;
+}
+/* form body */
+.form-body {
+    height: 326px;
+    display: flex;
+}
+.up-form {
+    width: 100%;
+    height: 100%;
+    margin-left: 5%;
+    display: flex;
+    flex-flow: column wrap;
+}
+/* input fields */
+.up-form  input {
+    width: 60%;
+    padding: 12px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+/* form button */
+.form-btn {
+    width: 30%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    padding: 12px;
+    cursor: pointer;
+    margin-top: 6px;
+    margin-right: 10%;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    transition:  background-color 1s linear 0s;
+    -webkit-transition:  background-color 1s linear 0s;
+    -moz-transition:  background-color 1s linear 0s;
+    -ms-transition:  background-color 1s linear 0s;
+    -o-transition:  background-color 1s linear 0s;
+}
+.form-btn:hover {
+    background-color: rgb(2, 2, 2, .4);
+    box-shadow: 0px 2px  5px 1px rgb(112, 111, 111);
+}
+.form-btn p {
+    font-family: 'Dosis';
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #ffffff;
+    padding-right: 8px;
+}
+/* Start Location section */
+.location-sec {
+    height: 600px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(245, 244, 244) 
+}
+.location-sec iframe {
+    height: 390px;
+}
+.loc-name {
+    height: 110px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+.loc-name .small-para {
+    font-family: 'Font Awesome 5 Free';
+    margin-left: 13%;
+    font-size: 12px;
+    font-weight: bold;
+    color:  rgb(1, 156, 218);
+}
+/* Start Statistic Section */
+.stat-sec {
+    height: 370px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+.stat-head {
+    height: 130px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+.stat-head .hor-line {
+    width: 7%;
+}
+.stat-head .small-para {
+    font-family: 'Font Awesome 5 Free';
+    margin-left: 7%;
+    font-size: 12px;
+    font-weight: bold;
+    color:  rgb(1, 156, 218);
+}
+.stat-sec .all-stat {
+    height: 240px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.stat-sec .all-stat .stat-part {
+    height: 240px;
+    width: 20%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+.stat-part h1 {
+    font-family: 'Dosis';
+    font-size: 50px;
+    line-height: 2;
+    color: #000000;
+}
+.stat-part p {
+    font-family: 'Dosis';
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 16px;
+    color: #000000;
+}
+/* Start testamonile and gallery section */
+.test-sec {
+    height: 410px;
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: rgba(218, 218, 218, 0.3);
+}
+.test-part {
+    width: 60%;
+}
+.pic-part {
+    width: 40%;
+}
+.test-part,
+.pic-part {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+} 
+.test-head,
+.pic-head {
+    height: 80px;
+    width: 100%;
+    margin-top: 3%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+.test-part .hor-line,
+.pic-part .hor-line {
+    width: 12%;
+}
+.test-part .small-para,
+.pic-part .small-para{
+    font-family: 'Font Awesome 5 Free';
+    margin-left: 8%;
+    font-size: 12px;
+    font-weight: bold;
+    color:  rgb(1, 156, 218);
+}
+/* Video */
+.test-video {
+    height: 260px;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.test-video video {
+    width: 320px;
+    height: 180px;
+    cursor: pointer;
+}
+/* Images */
+.coll-gall {
+    height: 260px;
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+}
+.coll-gall img {
+    width: 120px;
+    height: 120px;
+    padding: 3px;
+    border: 1px solid #002147;
+    cursor: pointer;
+}
+/*  Start apply section */
+.apply-sec {
+    height: 75px;
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: rgba(204, 204, 204, 0.6);
+}
+.apply-para {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 4%;
+}
+.apply-para p {
+    font-family: 'Dosis';
+    text-transform: uppercase;
+    font-size: 17px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    color: #000000;
+}
+/* Apply Button */
+.apply-btn {
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.apply-btn button {
+    width: 31%;
+    margin-left: 6%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.4);
+    font-family: 'Dosis';
+    font-size: 13px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #000000;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    transition:  background-color 1s linear 0s;
+    -webkit-transition:  background-color 1s linear 0s;
+    -moz-transition:  background-color 1s linear 0s;
+    -ms-transition:  background-color 1s linear 0s;
+    -o-transition:  background-color 1s linear 0s;
+}
+.now-btn:hover {
+    background-color: #0c0038;
+    color: #fff;
+    box-shadow: 0px 2px  5px 1px rgb(112, 111, 111);
+}
+/* Start Footer */
+#footer {
+    height: 280px;
+    background-color: #08031b;
+    display: flex;
+    flex-flow: column wrap;
+}
+.top-foot {
+    width: 100%;
+    height: 240px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+/* Left side from the footer */
+.left-side {
+    width: 50%;
+    height: 240px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+}
+.kytc-foot {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+.kytc-foot p {
+    font-family: 'Dosis';
+    font-size: 20px;
+    color: #fff;
+    word-spacing: 3px;
+    text-transform: uppercase;
+    margin: 0px 10px 0px 15px;
+}
+.kytc-foot img {
+    width: 50px;
+    height: 50px;
+    margin-left: 15%;
+}
+.foot-def {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+.foot-def p {
+    font-family: 'Dosis';
+    color: #666666;
+    line-height: 1.5;
+    margin-left: 15%;
+}
+.social-site {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.social-site p {
+    font-family: 'Dosis';
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #ffffff;
+    padding-right: 2%;
+}
+.icons {
+    width: 100px;
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.icons span {
+    font-size: 20px;
+    color: #fff;
+}
+/* Right side from the footer */
+.right-side {
+    width: 50%;
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-side img {
+    width: 200px;
+    height: 150px;
+    padding: 5px;
+    border: 1px solid rgba(43, 43, 43, 0.7);
+    box-shadow: 1px 1px 4px 0px rgb(71, 70, 70),
+    -1px -1px 4px 0px rgb(71, 70, 70);
+}
+/* copyright */
+.copyright {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.copyright p {
+    font-family: 'Dosis';
+    font-size: 11px;
+    color: #666666;
+}
